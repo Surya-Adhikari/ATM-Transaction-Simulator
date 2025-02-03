@@ -1,12 +1,12 @@
+// code
 import java.util.Scanner;
-
 public class Main {
-    private double balance; // Variable to store the account balance
-    private int pin; // Variable to store the user's PIN
-    private String[] history = new String[5]; // Array to store transaction history
-    private int historyCount = 0; // Counter for the number of transactions in history
+	private double balance; // Variable to store the account balance
+	private int pin; // Variable to store the user's PIN
+	private String[] history = new String[5]; // Array to store transaction history 
+	private int historyCount = 0; // Counter for the number of transactions in history
 
-    // Constructor to initialize the ATM with a PIN and initial balance
+ // Constructor to initialize the ATM with a PIN and initial balance
     public Main(int initialPin, double initialBalance) {
         this.pin = initialPin;
         this.balance = initialBalance;
